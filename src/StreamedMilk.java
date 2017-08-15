@@ -7,7 +7,7 @@ public class StreamedMilk extends condimenDecorator {
 	@Override
 	public String getDescription() {
 		// TODO Auto-generated method stub
-		return beverage.getDrdacription()+",StreamedMilk";
+		return beverage.getDescription()+",StreamedMilk";
 	}
 	public double cost(){
 		return 0.10 + beverage.cost();

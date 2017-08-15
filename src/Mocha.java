@@ -8,7 +8,7 @@ public class Mocha extends condimenDecorator {
 	@Override 
 	public String getDescription() {
 		// TODO Auto-generated method stub
-		return beverage.getDrdacription()+",Mocha";
+		return beverage.getDescription()+",Mocha";
 	}
 	public double cost(){
 		return 0.20 + beverage.cost();
