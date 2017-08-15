@@ -1,0 +1,15 @@
+
+public class StreamedMilk extends condimenDecorator {
+	 Beverage beverage;                                                                                                                                                                                 
+		public  StreamedMilk(Beverage beverage){
+			this.beverage = beverage;
+		}
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return beverage.getDrdacription()+",StreamedMilk";
+	}
+	public double cost(){
+		return 0.10 + beverage.cost();
+}
+}
